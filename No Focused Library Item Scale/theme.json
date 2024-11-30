@@ -1,0 +1,13 @@
+{
+  "name": "No Focused Library Item Scale",
+  "description": "Removes the scaling of focused library items in library and home screen. As one of the benefits, it prevents image distortion.",
+  "manifest_version": 8,
+  "version": "v1.0",
+  "author": "smithumble",
+  "target": "System-Wide",
+  "inject": {
+    "shared.css": [
+      "bigpicture"
+    ]
+  }
+}
