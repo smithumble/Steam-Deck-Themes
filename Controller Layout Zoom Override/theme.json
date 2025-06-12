@@ -1,0 +1,79 @@
+{
+  "name": "Controller Layout Zoom Override",
+  "description": "Override the zoom of the controller layout view. The main goal was to fix the controller layout zoom issue with manual global user interface scaling.",
+  "manifest_version": 8,
+  "version": "v1.0",
+  "author": "smithumble",
+  "target": "System-Wide",
+  "inject": {
+    "shared.css": [
+      "bigpicture",
+      "MainMenu"
+    ]
+  },
+  "patches": {
+    "Zoom": {
+      "type": "slider",
+      "default": "1",
+      "values": {
+        "0.5": {
+          "--controller-layout-zoom-override": [
+            "0.5",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "0.75": {
+          "--controller-layout-zoom-override": [
+            "0.75",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "1": {
+          "--controller-layout-zoom-override": [
+            "1",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "1.25": {
+          "--controller-layout-zoom-override": [
+            "1.25",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "1.5": {
+          "--controller-layout-zoom-override": [
+            "1.5",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "2": {
+          "--controller-layout-zoom-override": [
+            "2",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "2.5": {
+          "--controller-layout-zoom-override": [
+            "2.5",
+            "bigpicture",
+            "MainMenu"
+          ]
+        },
+        "3": {
+          "--controller-layout-zoom-override": [
+            "3",
+            "bigpicture",
+            "MainMenu"
+          ]
+        }
+      },
+      "components": []
+    }
+  }
+}

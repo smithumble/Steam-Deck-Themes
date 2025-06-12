@@ -1,0 +1,3 @@
+.controller_steamcontroller_neptune {
+    zoom: var(--controller-layout-zoom-override) !important;  /* Using !important to override inline style attributes */
+}
