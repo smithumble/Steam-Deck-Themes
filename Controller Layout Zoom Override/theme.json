@@ -2,7 +2,7 @@
   "name": "Controller Layout Zoom Override",
   "description": "Override the zoom of the controller layout view. The main goal was to fix the controller layout zoom issue with manual global user interface scaling.",
   "manifest_version": 8,
-  "version": "v1.0",
+  "version": "v1.1",
   "author": "smithumble",
   "target": "System-Wide",
   "inject": {
